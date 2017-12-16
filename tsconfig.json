@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2017",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "forceConsistentCasingInFileNames": true,
+        // "allowJs": true, // tsc bug?
+        // "checkJs": true,
+        "pretty": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        // "traceResolution": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

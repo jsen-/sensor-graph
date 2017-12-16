@@ -1,0 +1,11 @@
+{
+	"rules": {
+		"object-literal-sort-keys": false,
+		"variable-name": false
+	},
+	"jsRules": {
+		"quotemark": true
+	},
+	"extends": "tslint:recommended",
+	"defaultSeverity": "warning"
+}
